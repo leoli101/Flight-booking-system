@@ -1,0 +1,19 @@
+# user 1
+search "Miami FL" "Atlanta GA" 1 1 5
+quit
+*
+#
+# expected printouts for user 1
+#
+Itinerary 0: 1 flight(s), 96 minutes
+ID: 122072 Day: 1 Carrier: DL Number: 356 Origin: Miami FL Dest: Atlanta GA Duration: 96 Capacity: 2 Price: 569
+Itinerary 1: 1 flight(s), 97 minutes
+ID: 122719 Day: 1 Carrier: DL Number: 994 Origin: Miami FL Dest: Atlanta GA Duration: 97 Capacity: 0 Price: 954
+Itinerary 2: 1 flight(s), 98 minutes
+ID: 123482 Day: 1 Carrier: DL Number: 1788 Origin: Miami FL Dest: Atlanta GA Duration: 98 Capacity: 7 Price: 768
+Itinerary 3: 1 flight(s), 100 minutes
+ID: 123428 Day: 1 Carrier: DL Number: 1725 Origin: Miami FL Dest: Atlanta GA Duration: 100 Capacity: 0 Price: 766
+Itinerary 4: 1 flight(s), 103 minutes
+ID: 122458 Day: 1 Carrier: DL Number: 754 Origin: Miami FL Dest: Atlanta GA Duration: 103 Capacity: 4 Price: 187
+Goodbye
+*

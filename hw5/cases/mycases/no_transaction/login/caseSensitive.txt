@@ -1,0 +1,9 @@
+# Testing case-sensitive Password
+create user1 user1 0
+login user1 USER1
+quit
+*
+Created user user1
+Login failed
+Goodbye
+*

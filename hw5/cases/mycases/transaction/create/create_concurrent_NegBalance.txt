@@ -1,0 +1,26 @@
+# Terminal 1
+create user1 user1 -1
+login user1 user1
+quit
+*
+Failed to create user
+Login failed
+Goodbye
+|
+Failed to create user
+Logged in as user1
+Goodbye
+*
+# Terminal 2
+create user1 user1 10000
+login user1 user1
+quit
+*
+Created user user1
+Logged in as user1
+Goodbye
+|
+Created user user1
+Logged in as user1
+Goodbye
+*

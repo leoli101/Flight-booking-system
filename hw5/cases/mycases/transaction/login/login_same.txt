@@ -1,0 +1,29 @@
+# user 1's commands
+create user1 user1 100
+login user1 user1
+quit
+*
+#
+# expected printouts for user 1
+#
+Created user user1
+Logged in as user1
+Goodbye
+|
+Failed to create user
+Logged in as user1
+Goodbye
+#
+*  # user 2's commands
+create user1 user1 100
+login user1 user1
+quit
+*  # user 2's expected printouts
+Failed to create user
+Logged in as user1
+Goodbye
+|
+Created user user1
+Logged in as user1
+Goodbye
+*

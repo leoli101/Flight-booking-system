@@ -1,0 +1,9 @@
+# Testing case-insensitive usernames
+create user1 user1 0
+create USER1 user2 0
+quit
+*
+Created user user1
+Failed to create user
+Goodbye
+*
